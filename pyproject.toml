@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "flask-nua-demo"
+description = "Demo app for NUA using Flask."
+authors = ["Abilian SAS"]
+version = "0.0.0"
+
+[tool.poetry.dependencies]
+python = ">3.9"
+
+flask = "*"
+gunicorn = "*"
